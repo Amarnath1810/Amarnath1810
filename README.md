@@ -134,6 +134,7 @@ I currently work on enterprise application development, including the **HRGF / N
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 <img src="https://img.shields.io/badge/FCM-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 <img src="https://img.shields.io/badge/Notifee-000000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Push%20Notifications-4285F4?style=for-the-badge&logo=firebase&logoColor=white" />
 </p>
 
 ## 🧰 Development Tools
