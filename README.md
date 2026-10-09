@@ -18,34 +18,63 @@ Full Stack Developer · React Native · React.js · Next.js · Node.js
 
 </div>
 
-🖥️ Animated Developer Profile
-<div align="center">
+🖥️ Developer Profile — amar/README.md
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=amar%40developer%3A~%24+.%2Fprofile.sh;Veeramreddy+Amarnath+Reddy;Full+Stack+Developer;React+Native+%7C+iOS+%7C+Android;React.js+%7C+Next.js+%7C+Node.js;Building+Web+%26+Mobile+Applications" alt="Animated terminal introduction" />
+</p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=850&lines=amar%40developer%3A~%24+./profile.sh;Full+Stack+Developer;React+Native+%7C+iOS+%7C+Android;React.js+%7C+Next.js;Node.js+%7C+Express.js+%7C+MongoDB;Building+Scalable+Web+%26+Mobile+Apps" alt="Animated developer terminal intro" />
+<table>
+  <tr>
+    <td width="42%" valign="top" align="center">
+      <strong>VISUAL.MAP</strong><br/><br/>
+      <img src="https://csqgcgfedyzwcmjoqsze.supabase.co/storage/v1/object/public/portfolio-images/profile.webp" alt="Amar Veeram Reddy profile photo" width="100%" />
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React_Native-Mobile-61DAFB?style=flat-square&logo=react&logoColor=20232A" alt="React Native"/>
+      <img src="https://img.shields.io/badge/React.js-Frontend-61DAFB?style=flat-square&logo=react&logoColor=20232A" alt="React.js"/>
+      <img src="https://img.shields.io/badge/Next.js-Web-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+      <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+      <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+    </td>
+    <td width="58%" valign="top">
+      <strong>SYSTEM.INFO</strong>
 
-<img src="https://csqgcgfedyzwcmjoqsze.supabase.co/storage/v1/object/public/portfolio-images/profile.webp" width="180" alt="Amar's profile photo" />
+  <p><code>amar@developer:~$ ./profile.sh</code></p>
 
-amar@developer:~$ ./profile.sh
-</div>
+  <pre>
+> Name ............ Veeramreddy Amarnath Reddy
+> Alias ........... Amar
+> Role ............ Full Stack Developer
+> Location ........ Chennai, India
+> Experience ...... 3.5+ Years
+> Mobile .......... React Native, iOS, Android
+> Frontend ........ React.js, Next.js, JavaScript
+> Backend ......... Node.js, Express.js
+> Database ........ MongoDB, SQL, Supabase
+> APIs ............ REST APIs, GraphQL, Apollo
+> State ........... Redux, Redux Toolkit
+> Notifications ... Firebase, FCM, Notifee
+> Focus ........... Web & Mobile Applications
+      </pre>
+  <p><code>amar@developer:~$ <strong>_</strong></code></p>
+</td>
+  </tr>
+</table>
 
-System information	Details
-Name	Veeramreddy Amarnath Reddy (Amar)
-Role	Full Stack Developer
-Experience	3.5+ years
-Location	Chennai, India
-Mobile	React Native · iOS · Android
-Frontend	React.js · Next.js · JavaScript · TypeScript
-Backend	Node.js · Express.js
-Databases	MongoDB · SQL
-APIs	REST APIs · GraphQL · Apollo Client
-State management	Redux · Redux Toolkit · Context API
-Notifications	Firebase · FCM · Notifee
-Focus	Scalable web and mobile applications
+<p align="center">
+  <strong>Full Stack Developer · React Native · Web Applications · iOS & Android</strong>
+  <br/><br/>
+  Building modern, responsive web and mobile applications with reusable components, reliable API integrations, and maintainable architecture.
+</p>
 
+<p align="center">
+  <a href="https://amarnathreddy.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/Amarnath1810"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/veeramreddy-amarnathreddy-84662022a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:veeramreddyamar36@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
-I build modern web and cross-platform mobile applications with a focus on clean architecture, reusable components, reliable API integrations, and excellent user experiences.
+README animation note: GitHub README files support animated images such as the typing banner above, but they do not run custom CSS or JavaScript. The terminal panel is styled with GitHub-compatible HTML and Markdown; use the Next.js website for scanlines, floating badges, orbit effects, and richer interactive animation.
 
-Portfolio: amarnathreddy.vercel.app · GitHub: Amarnath1810 · LinkedIn: Veeramreddy Amarnath Reddy · Email: veeramreddyamar36@gmail.com
 🚀 Core Skills at a Glance
 <p align="center">
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
