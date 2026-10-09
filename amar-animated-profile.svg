@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Veeramreddy Amarnath Reddy — Animated Developer Profile</title>
+  <desc id="desc">Animated terminal-style profile card with developer information, skills, projects, and clickable links.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fcff"/><stop offset="100%" stop-color="#eaf5ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f7fbff"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00b7df"/><stop offset="50%" stop-color="#398cff"/><stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#2d8db4" flood-opacity=".16"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#79c9eb" stroke-width=".7" opacity=".35"/>
+    </pattern>
+    <clipPath id="avatarClip"><rect x="42" y="115" width="475" height="410" rx="18"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .ui{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .label{fill:#008ec4;font-weight:700}
+      .value{fill:#1d2a42}
+      .small{font-size:14px}
+      .line{stroke:#b6d9eb;stroke-width:1}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      .blink{animation:blink 1.1s steps(2,start) infinite}
+      .float{animation:float 4s ease-in-out infinite}
+      .dash{stroke-dasharray:7 12;animation:dash 18s linear infinite}
+      .scan{animation:scan 5s linear infinite}
+      .typing{stroke-dasharray:420;stroke-dashoffset:420;animation:type 4.5s steps(42,end) .7s forwards}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+      @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:.2}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+      @keyframes dash{to{stroke-dashoffset:-380}}
+      @keyframes scan{0%{transform:translateY(-20px);opacity:0}15%{opacity:.65}85%{opacity:.65}100%{transform:translateY(410px);opacity:0}}
+      @keyframes type{to{stroke-dashoffset:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="680" rx="26" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="677" rx="25" fill="none" stroke="#69bddb" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="14" y="14" width="1172" height="652" rx="20" fill="url(#grid)" opacity=".65"/>
+  <!-- animated perimeter dashes -->
+  <rect x="12" y="12" width="1176" height="656" rx="22" fill="none" stroke="url(#cyan)" stroke-width="2.5" opacity=".65" class="dash"/>
+  <g class="pulse" filter="url(#glow)">
+    <rect x="82" y="10" width="44" height="4" rx="2" fill="#06b6d4"/>
+    <rect x="388" y="10" width="30" height="4" rx="2" fill="#6366f1"/>
+    <rect x="755" y="10" width="52" height="4" rx="2" fill="#8b5cf6"/>
+    <rect x="1025" y="10" width="36" height="4" rx="2" fill="#06b6d4"/>
+  </g>
+
+  <!-- Header -->
+  <g class="ui">
+    <circle cx="38" cy="43" r="6.5" fill="#ff6258"/><circle cx="59" cy="43" r="6.5" fill="#ffbd2e"/><circle cx="80" cy="43" r="6.5" fill="#28c840"/>
+    <text x="104" y="48" fill="#008ec4" font-size="17" font-weight="700" class="mono">amar/README.md</text>
+    <a href="https://github.com/Amarnath1810" target="_blank"><text x="718" y="47" fill="#1686c4" font-size="14">⌘ GitHub</text></a>
+    <a href="https://amarnathreddy.vercel.app" target="_blank"><text x="818" y="47" fill="#1686c4" font-size="14">⊞ Portfolio</text></a>
+    <a href="https://www.linkedin.com/in/veeramreddy-amarnathreddy-84662022a/" target="_blank"><text x="933" y="47" fill="#1686c4" font-size="14">in LinkedIn</text></a>
+    <a href="mailto:veeramreddyamar36@gmail.com"><text x="1060" y="47" fill="#1686c4" font-size="14">✉ Contact</text></a>
+  </g>
+
+  <!-- Left visual map panel: connected full-stack product illustration -->
+  <rect x="28" y="70" width="500" height="474" rx="20" fill="url(#panel)" stroke="#7ac7e2" stroke-width="1.7" filter="url(#shadow)"/>
+  <path d="M44 70H175L158 91H44Z" fill="#dff5ff"/>
+  <text x="49" y="85" class="mono label" font-size="12" letter-spacing="1.5">VISUAL.MAP</text>
+  <g clip-path="url(#avatarClip)">
+    <rect x="42" y="115" width="475" height="410" rx="18" fill="#061522"/>
+    <rect x="42" y="115" width="475" height="410" fill="url(#grid)" opacity=".6"/>
+    <g stroke="#29c9ff" stroke-width="1.6" fill="none" opacity=".8" class="dash">
+      <path d="M128 211L213 256L294 196L389 240L435 185"/>
+      <path d="M112 362L208 326L294 385L390 330L448 382"/>
+      <path d="M213 256L208 326M294 196L294 385M389 240L390 330"/>
+    </g>
+    <!-- central product core -->
+    <g class="float" filter="url(#glow)">
+      <path d="M236 246L292 214L348 246L292 279Z" fill="#153f62" stroke="#4de0ff" stroke-width="2"/>
+      <path d="M236 246V311L292 345V279Z" fill="#0b2942" stroke="#36b9ef" stroke-width="2"/>
+      <path d="M348 246V311L292 345V279Z" fill="#102f55" stroke="#5d8dff" stroke-width="2"/>
+      <path d="M255 250L292 229L329 250L292 271Z" fill="#1c6388" stroke="#9bf1ff" stroke-width="1.5"/>
+      <text x="292" y="258" text-anchor="middle" fill="#ffffff" font-family="ui-monospace,monospace" font-size="16" font-weight="700">APP</text>
+      <path d="M268 295L282 303L282 320L268 312Z" fill="#34d9ff" opacity=".9"/>
+      <path d="M291 308L316 293" stroke="#a5f3fc" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="292" cy="279" r="4" fill="#ffffff"/>
+    </g>
+    <!-- technology nodes -->
+    <g class="mono" font-size="13" font-weight="700" text-anchor="middle">
+      <g class="pulse"><rect x="68" y="174" width="112" height="42" rx="10" fill="#0d2d43" stroke="#35d8ff" stroke-width="1.5"/><text x="124" y="191" fill="#67e8f9" font-size="10">FRONTEND</text><text x="124" y="207" fill="#ffffff">React.js</text></g>
+      <g class="pulse"><rect x="361" y="157" width="118" height="42" rx="10" fill="#172448" stroke="#818cf8" stroke-width="1.5"/><text x="420" y="174" fill="#a5b4fc" font-size="10">WEB APP</text><text x="420" y="190" fill="#ffffff">Next.js</text></g>
+      <g class="pulse"><rect x="65" y="335" width="122" height="42" rx="10" fill="#0d2d43" stroke="#35d8ff" stroke-width="1.5"/><text x="126" y="352" fill="#67e8f9" font-size="10">MOBILE</text><text x="126" y="368" fill="#ffffff">React Native</text></g>
+      <g class="pulse"><rect x="363" y="312" width="114" height="42" rx="10" fill="#172448" stroke="#818cf8" stroke-width="1.5"/><text x="420" y="329" fill="#a5b4fc" font-size="10">BACKEND</text><text x="420" y="345" fill="#ffffff">Node.js</text></g>
+      <g><rect x="84" y="421" width="98" height="36" rx="9" fill="#102b3d" stroke="#34d399"/><text x="133" y="443" fill="#a7f3d0">REST API</text></g>
+      <g><rect x="365" y="413" width="100" height="36" rx="9" fill="#102b3d" stroke="#34d399"/><text x="415" y="435" fill="#a7f3d0">DATABASE</text></g>
+    </g>
+    <!-- moving data packets -->
+    <circle r="4.5" fill="#ffffff" filter="url(#glow)"><animateMotion dur="4.5s" repeatCount="indefinite" path="M128 211L213 256L294 196L389 240L435 185"/></circle>
+    <circle r="4" fill="#a5b4fc" filter="url(#glow)"><animateMotion dur="5.2s" repeatCount="indefinite" path="M112 362L208 326L294 385L390 330L448 382"/></circle>
+    <circle r="3.5" fill="#6ee7b7" filter="url(#glow)"><animateMotion dur="3.8s" repeatCount="indefinite" path="M133 421L208 326L292 345L415 413"/></circle>
+    <rect x="42" y="115" width="475" height="2" fill="#42d8ff" opacity=".8" class="scan"/>
+    <text x="62" y="495" fill="#62d9ff" opacity=".9" class="mono" font-size="12">DIGITAL PRODUCT // CONNECTED SYSTEMS</text>
+    <text x="62" y="512" fill="#91a9bd" opacity=".9" class="mono" font-size="10">UI → LOGIC → API → DATABASE → APP</text>
+  </g>
+  <rect x="42" y="115" width="475" height="410" rx="18" fill="none" stroke="#4ccfff" stroke-width="1.5" opacity=".85"/>
+
+  <!-- Right system info -->
+  <rect x="548" y="70" width="624" height="474" rx="20" fill="url(#panel)" stroke="#7ac7e2" stroke-width="1.7" filter="url(#shadow)"/>
+  <path d="M564 70H696L679 91H564Z" fill="#dff5ff"/>
+  <text x="568" y="85" class="mono label" font-size="12" letter-spacing="1.5">SYSTEM.INFO</text>
+  <circle cx="1110" cy="91" r="5" fill="#25b879" class="pulse"/>
+  <text x="1123" y="96" class="mono" font-size="12" fill="#079b70" font-weight="700" text-anchor="start">online</text>
+
+  <g class="mono" font-size="13.5">
+    <text x="570" y="124" fill="#2466ee" font-weight="700">amar@developer:~$ ./profile.sh</text>
+    <text x="570" y="157" class="label">&gt; Name</text><text x="690" y="157" class="value">Veeramreddy Amarnath Reddy</text>
+    <text x="570" y="183" class="label">&gt; Role</text><text x="690" y="183" class="value">Web &amp; Mobile Developer</text>
+    <text x="570" y="209" class="label">&gt; Experience</text><text x="690" y="209" class="value">3.5+ Years</text>
+    <text x="570" y="235" class="label">&gt; Stack</text><text x="690" y="235" class="value">React Native, React.js, Next.js</text>
+    <text x="690" y="255" class="value">Node.js, JavaScript, TypeScript</text>
+    <text x="570" y="283" class="label">&gt; Focus</text><text x="690" y="283" class="value">Engaging web &amp; mobile experiences</text>
+    <text x="570" y="309" class="label">&gt; Goal</text><text x="690" y="309" class="value">Scalable apps, impactful products</text>
+
+    <text x="570" y="346" class="label">&gt; Technologies</text>
+    <g class="float">
+      <rect x="570" y="360" width="118" height="27" rx="7" fill="#e6f7ff" stroke="#9bdcf0"/>
+      <text x="629" y="378" text-anchor="middle" fill="#087fb0" font-weight="700">React Native</text>
+      <rect x="697" y="360" width="88" height="27" rx="7" fill="#e6f7ff" stroke="#9bdcf0"/>
+      <text x="741" y="378" text-anchor="middle" fill="#087fb0" font-weight="700">React.js</text>
+      <rect x="794" y="360" width="83" height="27" rx="7" fill="#e6f7ff" stroke="#9bdcf0"/>
+      <text x="835" y="378" text-anchor="middle" fill="#087fb0" font-weight="700">Next.js</text>
+      <rect x="886" y="360" width="82" height="27" rx="7" fill="#e6f7ff" stroke="#9bdcf0"/>
+      <text x="927" y="378" text-anchor="middle" fill="#087fb0" font-weight="700">Node.js</text>
+      <rect x="977" y="360" width="94" height="27" rx="7" fill="#e6f7ff" stroke="#9bdcf0"/>
+      <text x="1024" y="378" text-anchor="middle" fill="#087fb0" font-weight="700">Supabase</text>
+    </g>
+
+    <text x="570" y="419" class="label">&gt; Links</text>
+    <a xlink:href="https://github.com/Amarnath1810" href="https://github.com/Amarnath1810" target="_blank">
+      <text x="588" y="444" fill="#087fb0" font-weight="700">● GitHub</text><text x="690" y="444" class="value">github.com/Amarnath1810</text>
+    </a>
+    <a xlink:href="https://amarnathreddy.vercel.app" href="https://amarnathreddy.vercel.app" target="_blank">
+      <text x="588" y="468" fill="#087fb0" font-weight="700">◎ Portfolio</text><text x="690" y="468" class="value">amarnathreddy.vercel.app</text>
+    </a>
+    <a xlink:href="https://www.linkedin.com/in/veeramreddy-amarnathreddy-84662022a/" href="https://www.linkedin.com/in/veeramreddy-amarnathreddy-84662022a/" target="_blank">
+      <text x="588" y="492" fill="#087fb0" font-weight="700">in LinkedIn</text><text x="690" y="492" class="value">Connect professionally</text>
+    </a>
+    <a xlink:href="mailto:veeramreddyamar36@gmail.com" href="mailto:veeramreddyamar36@gmail.com">
+      <text x="588" y="516" fill="#087fb0" font-weight="700">✉ Email</text><text x="690" y="516" class="value">veeramreddyamar36@gmail.com</text>
+    </a>
+  </g>
+
+  <!-- Footer strip -->
+  <line x1="34" y1="565" x2="1166" y2="565" stroke="#9ed8ee" stroke-width="1.5"/>
+  <g class="ui">
+    <text x="600" y="594" text-anchor="middle" fill="#24364a" font-size="18" font-weight="700">Web Developer · Mobile Developer · Full-Stack Builder</text>
+    <text x="600" y="625" text-anchor="middle" fill="#2879a8" font-size="15">📱 React Native  ·  ⚛ React.js  ·  ▲ Next.js  ·  ◉ Node.js  ·  ☁ Supabase</text>
+    <text x="600" y="650" text-anchor="middle" fill="#506a80" font-size="13">Building engaging web experiences, scalable applications, and impactful digital products.</text>
+  </g>
+  <g class="blink"><rect x="1139" y="638" width="9" height="15" rx="1" fill="#159bd1"/></g>
+</svg>
