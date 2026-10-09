@@ -1,7 +1,9 @@
 <div align="center">
 
 👋 Hi, I'm Veeramreddy Amarnath Reddy
-Full Stack Developer · React Native · React.js · Next.js · Node.js
+Web & Mobile Developer · React Native · React.js · Next.js · Node.js
+
+I'm passionate about building engaging web experiences, scalable applications, and impactful digital products. Welcome to my portfolio!
 <p>
   <a href="https://amarnathreddy.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
@@ -18,14 +20,41 @@ Full Stack Developer · React Native · React.js · Next.js · Node.js
 
 </div>
 
-🖥️ Developer Profile — amar/README.md
+
+## 🖥️ Animated Developer Profile
+
+> Upload `amar-animated-profile.svg` to the root of your GitHub profile repository before using this section.
+
+<p align="center">
+  <img
+    src="./amar-animated-profile.svg"
+    alt="Veeramreddy Amarnath Reddy — Animated Developer Profile"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <a href="https://amarnathreddy.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/Amarnath1810">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/veeramreddy-amarnathreddy-84662022a/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:veeramreddyamar36@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+---
+
+### 🖥️ Developer Terminal Overview
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=amar%40developer%3A~%24+.%2Fprofile.sh;Veeramreddy+Amarnath+Reddy;Full+Stack+Developer;React+Native+%7C+iOS+%7C+Android;React.js+%7C+Next.js+%7C+Node.js;Building+Web+%26+Mobile+Applications" alt="Animated terminal introduction" />
 </p>
 
-<p align="right">
-  <img src="https://csqgcgfedyzwcmjoqsze.supabase.co/storage/v1/object/public/portfolio-images/profile.webp" alt="Amar profile photo — top corner" width="130" />
-</p>
 
 <table>
   <tr>
@@ -70,7 +99,7 @@ Full Stack Developer · React Native · React.js · Next.js · Node.js
 <p align="center">
   <strong>Full Stack Developer · React Native · Web Applications · iOS & Android</strong>
   <br/><br/>
-  Building modern, responsive web and mobile applications with reusable components, reliable API integrations, and maintainable architecture.
+  I'm a Web and Mobile Developer passionate about building engaging web experiences, scalable applications, and impactful digital products. Welcome to my portfolio!
 </p>
 
 <p align="center">
