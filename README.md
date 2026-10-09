@@ -27,7 +27,7 @@ Full Stack Developer · React Native · React.js · Next.js · Node.js
   <tr>
     <td width="42%" valign="top" align="center">
       <strong>VISUAL.MAP</strong><br/><br/>
-      <img src="./assets/reference-design.png" alt="Futuristic terminal dashboard design reference" width="100%" />
+      <img src="https://csqgcgfedyzwcmjoqsze.supabase.co/storage/v1/object/public/portfolio-images/profile.webp" alt="Amar Veeram Reddy profile photo" width="100%" />
       <br/><br/>
       <img src="https://img.shields.io/badge/React_Native-Mobile-61DAFB?style=flat-square&logo=react&logoColor=20232A" alt="React Native"/>
       <img src="https://img.shields.io/badge/React.js-Frontend-61DAFB?style=flat-square&logo=react&logoColor=20232A" alt="React.js"/>
